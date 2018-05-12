@@ -1,1 +1,55 @@
+1.Getting Started
+Anaconda and Spyder
+
+2. Hello World
+print("Hello World!")
+
+3. Variables
+Python stores data in variables. Variables are analogous to variables that you
+would have experienced in mathematics.
+x = 10
+print(x)
+y = 5
+z = x + y
+print(z)
+
+y = 10
+z = x + y
+print(z)
+
+Variables aren’t limited to numbers. They can be any defined data type. For
+example you can store a string as a variable.
+
+my_string = "Hello World!"
+print(my_string)
+end_string = " -from Steve"
+print(my_string + end_string)
+
+5. Lists
+Lists are a way to store an ordered collection of variables. Let’s create a list
+and store it in the variable my_list. Try the following by adding to your Python
+Script then pressing Run
+
+my_list = [1, 2, 4, 8, 16]
+print(my_list)
+
+List items can be accessed by their index. Python uses zero-indexing which
+means the first item starts at 0.
+
+print(my_list[0])
+To add sth: to add items to the list you can use the append function
+my_list.append(32)
+To create an empty list you can use the list constructor function
+my_empty_list = list()
+To find out how many items are in the list use the len function
+print(len(my_list))
+
+6. Conditionals
+input_number = int(input("Enter a number:"))
+if input_number > 3:
+print("number is greater than 3")
+elif input_number == 3:
+print("number is equal to 3")
+else:
+print("number is less than 3")
 
